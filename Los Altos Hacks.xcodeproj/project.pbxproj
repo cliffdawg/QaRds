@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CC061D57228783FF148AE4 /* Pods_Los_Altos_Hacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CAEFC3A730E39FE05F81338 /* Pods_Los_Altos_Hacks.framework */; };
+		2AF25C8A1E46CBA8006EDD87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF25C891E46CBA8006EDD87 /* Main.storyboard */; };
+		FC2E16391E50349A0021FD69 /* QaRdsLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2E16381E50349A0021FD69 /* QaRdsLaunchScreen.storyboard */; };
+		FC3117B620A3A41300B8E547 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117B520A3A41300B8E547 /* ContactsViewController.swift */; };
+		FC3117B820A3A41A00B8E547 /* MyCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117B720A3A41A00B8E547 /* MyCardsViewController.swift */; };
+		FC3117BA20A3A42000B8E547 /* NewCardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117B920A3A42000B8E547 /* NewCardController.swift */; };
+		FC3117BC20A3A42900B8E547 /* QRScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117BB20A3A42900B8E547 /* QRScanController.swift */; };
+		FC3117BE20A3A43100B8E547 /* MyQRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117BD20A3A43000B8E547 /* MyQRViewController.swift */; };
+		FC3117C120A3A4E600B8E547 /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117BF20A3A4E500B8E547 /* CustomSegue.swift */; };
+		FC3117C220A3A4E600B8E547 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117C020A3A4E500B8E547 /* AppDelegate.swift */; };
+		FC3117C520A3A4F500B8E547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3117C320A3A4F400B8E547 /* GoogleService-Info.plist */; };
+		FC3117C620A3A4F500B8E547 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC3117C420A3A4F400B8E547 /* Info.plist */; };
+		FC3117C920A3A4FF00B8E547 /* QaRds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC3117C720A3A4FF00B8E547 /* QaRds.xcdatamodeld */; };
+		FC3117CB20A3A51000B8E547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3117CA20A3A50F00B8E547 /* Assets.xcassets */; };
+		FC3117CE20A3A53800B8E547 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117CD20A3A53800B8E547 /* Reachability.swift */; };
+		FC3117D220A3A58200B8E547 /* PhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117D120A3A58200B8E547 /* PhotoHelper.swift */; };
+		FC3117DA20A3A99900B8E547 /* MyCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117D920A3A99900B8E547 /* MyCardCell.swift */; };
+		FC3117DC20A3A9B000B8E547 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117DB20A3A9B000B8E547 /* ContactCell.swift */; };
+		FC3117DE20A3A9CA00B8E547 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117DD20A3A9CA00B8E547 /* ThemePicker.swift */; };
+		FC3117E320A3AA3700B8E547 /* themeChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117E220A3AA3700B8E547 /* themeChoices.swift */; };
+		FC3117E620A3AA5000B8E547 /* ThemePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117E520A3AA5000B8E547 /* ThemePickerCell.swift */; };
+		FC3117E820A3AAB300B8E547 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3117E720A3AAB200B8E547 /* Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AF25C491E46514F006EDD87 /* Los Altos Hacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Los Altos Hacks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF25C891E46CBA8006EDD87 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		534EEC0A27BD411285030526 /* Pods-Los Altos Hacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Los Altos Hacks.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Los Altos Hacks/Pods-Los Altos Hacks.debug.xcconfig"; sourceTree = "<group>"; };
+		5CAEFC3A730E39FE05F81338 /* Pods_Los_Altos_Hacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Los_Altos_Hacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		923C55130FE8EB93073D2739 /* Pods-Los Altos Hacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Los Altos Hacks.release.xcconfig"; path = "Pods/Target Support Files/Pods-Los Altos Hacks/Pods-Los Altos Hacks.release.xcconfig"; sourceTree = "<group>"; };
+		FC2E16381E50349A0021FD69 /* QaRdsLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QaRdsLaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC3117B520A3A41300B8E547 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		FC3117B720A3A41A00B8E547 /* MyCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardsViewController.swift; sourceTree = "<group>"; };
+		FC3117B920A3A42000B8E547 /* NewCardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCardController.swift; sourceTree = "<group>"; };
+		FC3117BB20A3A42900B8E547 /* QRScanController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScanController.swift; sourceTree = "<group>"; };
+		FC3117BD20A3A43000B8E547 /* MyQRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQRViewController.swift; sourceTree = "<group>"; };
+		FC3117BF20A3A4E500B8E547 /* CustomSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		FC3117C020A3A4E500B8E547 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC3117C320A3A4F400B8E547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC3117C420A3A4F400B8E547 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3117C820A3A4FF00B8E547 /* QaRds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QaRds.xcdatamodel; sourceTree = "<group>"; };
+		FC3117CA20A3A50F00B8E547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC3117CD20A3A53800B8E547 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FC3117CF20A3A56500B8E547 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		FC3117D120A3A58200B8E547 /* PhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoHelper.swift; sourceTree = "<group>"; };
+		FC3117D920A3A99900B8E547 /* MyCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCardCell.swift; sourceTree = "<group>"; };
+		FC3117DB20A3A9B000B8E547 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		FC3117DD20A3A9CA00B8E547 /* ThemePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		FC3117E220A3AA3700B8E547 /* themeChoices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = themeChoices.swift; sourceTree = "<group>"; };
+		FC3117E520A3AA5000B8E547 /* ThemePickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemePickerCell.swift; sourceTree = "<group>"; };
+		FC3117E720A3AAB200B8E547 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF25C461E46514F006EDD87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CC061D57228783FF148AE4 /* Pods_Los_Altos_Hacks.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF25C401E46514E006EDD87 = {
+			isa = PBXGroup;
+			children = (
+				FC3117AE20A3A2ED00B8E547 /* ViewControllers */,
+				FC3117D020A3A57A00B8E547 /* Constants */,
+				FC3117CC20A3A52C00B8E547 /* Network */,
+				FC3117B020A3A34200B8E547 /* Resources */,
+				2AF25C4A1E46514F006EDD87 /* Products */,
+				68F79F56A11065D32126D599 /* Pods */,
+				424FCE1EFEA284393662DACB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AF25C4A1E46514F006EDD87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AF25C491E46514F006EDD87 /* Los Altos Hacks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		424FCE1EFEA284393662DACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CAEFC3A730E39FE05F81338 /* Pods_Los_Altos_Hacks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68F79F56A11065D32126D599 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				534EEC0A27BD411285030526 /* Pods-Los Altos Hacks.debug.xcconfig */,
+				923C55130FE8EB93073D2739 /* Pods-Los Altos Hacks.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC3117AE20A3A2ED00B8E547 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117B120A3A38600B8E547 /* MyCardsViewController */,
+				FC3117B320A3A3D900B8E547 /* QRViewController */,
+				FC3117AF20A3A31200B8E547 /* ContactsViewController */,
+				FC3117B420A3A3EE00B8E547 /* QRScanController */,
+				FC3117B220A3A3C400B8E547 /* NewCardViewController */,
+				FC3117DF20A3AA1A00B8E547 /* ThemeChoicesController */,
+			);
+			name = ViewControllers;
+			path = QaRds/ViewControllers;
+			sourceTree = "<group>";
+		};
+		FC3117AF20A3A31200B8E547 /* ContactsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117D320A3A95B00B8E547 /* Views */,
+				FC3117B520A3A41300B8E547 /* ContactsViewController.swift */,
+			);
+			path = ContactsViewController;
+			sourceTree = "<group>";
+		};
+		FC3117B020A3A34200B8E547 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117C020A3A4E500B8E547 /* AppDelegate.swift */,
+				FC3117BF20A3A4E500B8E547 /* CustomSegue.swift */,
+				FC2E16381E50349A0021FD69 /* QaRdsLaunchScreen.storyboard */,
+				2AF25C891E46CBA8006EDD87 /* Main.storyboard */,
+				FC3117CA20A3A50F00B8E547 /* Assets.xcassets */,
+				FC3117CF20A3A56500B8E547 /* BridgingHeader.h */,
+				FC3117C320A3A4F400B8E547 /* GoogleService-Info.plist */,
+				FC3117C420A3A4F400B8E547 /* Info.plist */,
+				FC3117C720A3A4FF00B8E547 /* QaRds.xcdatamodeld */,
+			);
+			name = Resources;
+			path = QaRds/Resources;
+			sourceTree = "<group>";
+		};
+		FC3117B120A3A38600B8E547 /* MyCardsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117D620A3A97200B8E547 /* Views */,
+				FC3117B720A3A41A00B8E547 /* MyCardsViewController.swift */,
+			);
+			path = MyCardsViewController;
+			sourceTree = "<group>";
+		};
+		FC3117B220A3A3C400B8E547 /* NewCardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117B920A3A42000B8E547 /* NewCardController.swift */,
+			);
+			path = NewCardViewController;
+			sourceTree = "<group>";
+		};
+		FC3117B320A3A3D900B8E547 /* QRViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117BD20A3A43000B8E547 /* MyQRViewController.swift */,
+			);
+			path = QRViewController;
+			sourceTree = "<group>";
+		};
+		FC3117B420A3A3EE00B8E547 /* QRScanController */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117BB20A3A42900B8E547 /* QRScanController.swift */,
+			);
+			path = QRScanController;
+			sourceTree = "<group>";
+		};
+		FC3117CC20A3A52C00B8E547 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117CD20A3A53800B8E547 /* Reachability.swift */,
+			);
+			name = Network;
+			path = QaRds/Network;
+			sourceTree = "<group>";
+		};
+		FC3117D020A3A57A00B8E547 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117E720A3AAB200B8E547 /* Card.swift */,
+				FC3117D120A3A58200B8E547 /* PhotoHelper.swift */,
+				FC3117DD20A3A9CA00B8E547 /* ThemePicker.swift */,
+			);
+			name = Constants;
+			path = QaRds/Constants;
+			sourceTree = "<group>";
+		};
+		FC3117D320A3A95B00B8E547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117DB20A3A9B000B8E547 /* ContactCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC3117D620A3A97200B8E547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117D920A3A99900B8E547 /* MyCardCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC3117DF20A3AA1A00B8E547 /* ThemeChoicesController */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117E420A3AA4000B8E547 /* Views */,
+				FC3117E220A3AA3700B8E547 /* themeChoices.swift */,
+			);
+			path = ThemeChoicesController;
+			sourceTree = "<group>";
+		};
+		FC3117E420A3AA4000B8E547 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC3117E520A3AA5000B8E547 /* ThemePickerCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AF25C481E46514F006EDD87 /* Los Altos Hacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF25C5B1E46514F006EDD87 /* Build configuration list for PBXNativeTarget "Los Altos Hacks" */;
+			buildPhases = (
+				08D02389D1E2A3C088B6561E /* [CP] Check Pods Manifest.lock */,
+				2AF25C451E46514F006EDD87 /* Sources */,
+				2AF25C461E46514F006EDD87 /* Frameworks */,
+				2AF25C471E46514F006EDD87 /* Resources */,
+				3E89EC4719712DF15BE35014 /* [CP] Embed Pods Frameworks */,
+				EF7301D5D16569FACB068013 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Los Altos Hacks";
+			productName = "Los Altos Hacks";
+			productReference = 2AF25C491E46514F006EDD87 /* Los Altos Hacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AF25C411E46514E006EDD87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = cliffordYin;
+				TargetAttributes = {
+					2AF25C481E46514F006EDD87 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 32A3WC8DJ6;
+					};
+				};
+			};
+			buildConfigurationList = 2AF25C441E46514E006EDD87 /* Build configuration list for PBXProject "Los Altos Hacks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AF25C401E46514E006EDD87;
+			productRefGroup = 2AF25C4A1E46514F006EDD87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AF25C481E46514F006EDD87 /* Los Altos Hacks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AF25C471E46514F006EDD87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF25C8A1E46CBA8006EDD87 /* Main.storyboard in Resources */,
+				FC2E16391E50349A0021FD69 /* QaRdsLaunchScreen.storyboard in Resources */,
+				FC3117C520A3A4F500B8E547 /* GoogleService-Info.plist in Resources */,
+				FC3117CB20A3A51000B8E547 /* Assets.xcassets in Resources */,
+				FC3117C620A3A4F500B8E547 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08D02389D1E2A3C088B6561E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E89EC4719712DF15BE35014 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Los Altos Hacks/Pods-Los Altos Hacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF7301D5D16569FACB068013 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Los Altos Hacks/Pods-Los Altos Hacks-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AF25C451E46514F006EDD87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3117DC20A3A9B000B8E547 /* ContactCell.swift in Sources */,
+				FC3117B820A3A41A00B8E547 /* MyCardsViewController.swift in Sources */,
+				FC3117B620A3A41300B8E547 /* ContactsViewController.swift in Sources */,
+				FC3117D220A3A58200B8E547 /* PhotoHelper.swift in Sources */,
+				FC3117C920A3A4FF00B8E547 /* QaRds.xcdatamodeld in Sources */,
+				FC3117BE20A3A43100B8E547 /* MyQRViewController.swift in Sources */,
+				FC3117BC20A3A42900B8E547 /* QRScanController.swift in Sources */,
+				FC3117DA20A3A99900B8E547 /* MyCardCell.swift in Sources */,
+				FC3117BA20A3A42000B8E547 /* NewCardController.swift in Sources */,
+				FC3117CE20A3A53800B8E547 /* Reachability.swift in Sources */,
+				FC3117E320A3AA3700B8E547 /* themeChoices.swift in Sources */,
+				FC3117DE20A3A9CA00B8E547 /* ThemePicker.swift in Sources */,
+				FC3117E620A3AA5000B8E547 /* ThemePickerCell.swift in Sources */,
+				FC3117C120A3A4E600B8E547 /* CustomSegue.swift in Sources */,
+				FC3117C220A3A4E600B8E547 /* AppDelegate.swift in Sources */,
+				FC3117E820A3AAB300B8E547 /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2AF25C591E46514F006EDD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AF25C5A1E46514F006EDD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AF25C5C1E46514F006EDD87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534EEC0A27BD411285030526 /* Pods-Los Altos Hacks.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 32A3WC8DJ6;
+				INFOPLIST_FILE = "$(SRCROOT)/QaRds/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliffordYin.QaRds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2AF25C5D1E46514F006EDD87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923C55130FE8EB93073D2739 /* Pods-Los Altos Hacks.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 32A3WC8DJ6;
+				INFOPLIST_FILE = "$(SRCROOT)/QaRds/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cliffordYin.QaRds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AF25C441E46514E006EDD87 /* Build configuration list for PBXProject "Los Altos Hacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF25C591E46514F006EDD87 /* Debug */,
+				2AF25C5A1E46514F006EDD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF25C5B1E46514F006EDD87 /* Build configuration list for PBXNativeTarget "Los Altos Hacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF25C5C1E46514F006EDD87 /* Debug */,
+				2AF25C5D1E46514F006EDD87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC3117C720A3A4FF00B8E547 /* QaRds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC3117C820A3A4FF00B8E547 /* QaRds.xcdatamodel */,
+			);
+			currentVersion = FC3117C820A3A4FF00B8E547 /* QaRds.xcdatamodel */;
+			path = QaRds.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AF25C411E46514E006EDD87 /* Project object */;
+}

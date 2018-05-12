@@ -1,0 +1,6 @@
+framework module Pods_Los_Altos_Hacks {
+  umbrella header "Pods-Los Altos Hacks-umbrella.h"
+
+  export *
+  module * { export * }
+}
